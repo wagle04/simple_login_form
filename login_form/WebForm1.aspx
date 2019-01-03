@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            
+            <h1> User Login Form</h1>
         <asp:Label ID="Label1" runat="server" Text="Name"></asp:Label>
             <asp:TextBox ID="txtname" runat="server"></asp:TextBox>
             
@@ -17,7 +17,7 @@
         <p>
             
         <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
-            <asp:TextBox ID="txtpassword" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtpassword" runat="server" TextMode="Password"></asp:TextBox>
             </p>
         <p>
             <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" />
